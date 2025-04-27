@@ -62,9 +62,9 @@ async def submit_form(request: Request):
         json.dump(data, file, indent=4)
 
     # Email configuration using Gmail with App Password
-    sender_email = "noursalem741@gmail.com"  # Your Gmail address
-    receiver_email = "noursalem741@gmail.com"  # The email where you want to receive messages
-    password = "kxra osie zlgk cjza"  # Your App Password from Google
+    sender_email = "noursalem@gmail.com"  # Your Gmail address
+    receiver_email = "noursalem@gmail.com"  # The email where you want to receive messages
+    password = "kxra osiz zlgx cjza"  # Your App Password from Google
 
     # SMTP server settings for Gmail
     smtp_server = "smtp.gmail.com"
